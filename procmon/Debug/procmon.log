@@ -1,0 +1,32 @@
+﻿Build started 14-12-2019 06:29:27 PM.
+     1>Project "F:\Data Structure Codes\procmon\procmon\procmon.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt helperfunction.cpp main.cpp procmon_functions.cpp
+         procmon_functions.cpp
+     1>f:\data structure codes\procmon\procmon\procmon_functions.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>f:\data structure codes\procmon\procmon\procmon_functions.cpp(155): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(249) : see declaration of 'stricmp'
+     1>f:\data structure codes\procmon\procmon\procmon_functions.cpp(161): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(249) : see declaration of 'stricmp'
+     1>f:\data structure codes\procmon\procmon\procmon_functions.cpp(221): warning C4018: '<=' : signed/unsigned mismatch
+     1>f:\data structure codes\procmon\procmon\procmon_functions.cpp(185): warning C4101: 'cpop' : unreferenced local variable
+     1>f:\data structure codes\procmon\procmon\procmon_functions.cpp(281): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\data structure codes\procmon\procmon\procmon_functions.cpp(261): warning C4101: 'arr' : unreferenced local variable
+         helperfunction.cpp
+     1>f:\data structure codes\procmon\procmon\helperfunction.cpp(23): warning C4805: '==' : unsafe mix of type 'BOOL' and type 'bool' in operation
+         Generating Code...
+         Compiling...
+         main.cpp
+     1>f:\data structure codes\procmon\procmon\main.cpp(110): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(249) : see declaration of 'stricmp'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Data Structure Codes\procmon\Debug\procmon.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Data Structure Codes\procmon\Debug\procmon.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Data Structure Codes\procmon\Debug\procmon.lib" /MACHINE:X86 Debug\helperfunction.obj
+         Debug\main.obj
+         Debug\procmon_functions.obj
+         procmon.vcxproj -> F:\Data Structure Codes\procmon\Debug\procmon.exe
+     1>Done Building Project "F:\Data Structure Codes\procmon\procmon\procmon.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.42
